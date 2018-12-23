@@ -1,0 +1,357 @@
+<!--
+	Copyright 2009 The Go Authors. All rights reserved.
+	Use of this source code is governed by a BSD-style
+	license that can be found in the LICENSE file.
+-->
+<!--
+	Note: Static (i.e., not template-generated) href and id
+	attributes start with "pkg-" to make it impossible for
+	them to conflict with generated attributes (some of which
+	correspond to Go identifiers).
+-->
+
+	<script type='text/javascript'>
+	document.ANALYSIS_DATA = ;
+	document.CALLGRAPH = ;
+	</script>
+
+	
+		
+		<div id="short-nav">
+			<dl>
+			<dd><code>import "github.com/rajnikant12345/engine"</code></dd>
+			</dl>
+			<dl>
+			<dd><a href="#pkg-overview" class="overviewLink">Overview</a></dd>
+			<dd><a href="#pkg-index" class="indexLink">Index</a></dd>
+			
+			
+			</dl>
+		</div>
+		<!-- The package's Name is printed as title by the top-level template -->
+		<div id="pkg-overview" class="toggleVisible">
+			<div class="collapsed">
+				<h2 class="toggleButton" title="Click to show Overview section">Overview ▹</h2>
+			</div>
+			<div class="expanded">
+				<h2 class="toggleButton" title="Click to hide Overview section">Overview ▾</h2>
+				
+				
+			</div>
+		</div>
+
+		<div id="pkg-index" class="toggleVisible">
+		<div class="collapsed">
+			<h2 class="toggleButton" title="Click to show Index section">Index ▹</h2>
+		</div>
+		<div class="expanded">
+			<h2 class="toggleButton" title="Click to hide Index section">Index ▾</h2>
+
+		<!-- Table of contents for API; must be named manual-nav to turn off auto nav. -->
+			<div id="manual-nav">
+			<dl>
+			
+			
+			
+				
+				<dd><a href="#CreateApp">func CreateApp()</a></dd>
+			
+				
+				<dd><a href="#InitApp">func InitApp()</a></dd>
+			
+				
+				<dd><a href="#StartApp">func StartApp()</a></dd>
+			
+			
+				
+				<dd><a href="#Element">type Element</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#NewElement">func NewElement(tag string) *Element</a></dd>
+				
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.AddChild">func (e *Element) AddChild(element *Element)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.RemoveChild">func (e *Element) RemoveChild()</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.RemoveSingleChild">func (e *Element) RemoveSingleChild(element *Element)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.Set">func (e *Element) Set(key string, value string)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.SetCallBack">func (e *Element) SetCallBack(cbType string, cb js.Callback)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.SetClass">func (e *Element) SetClass(class string)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.SetId">func (e *Element) SetId(id string)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Element.SetInnerHtml">func (e *Element) SetInnerHtml(innerhtml string)</a></dd>
+				
+			
+			
+			</dl>
+			</div><!-- #manual-nav -->
+
+		
+
+		
+			<h3>Package files</h3>
+			<p>
+			<span style="font-size:90%">
+			
+				<a href="/src/github.com/rajnikant12345/engine/app.go">app.go</a>
+			
+				<a href="/src/github.com/rajnikant12345/engine/appengine.go">appengine.go</a>
+			
+				<a href="/src/github.com/rajnikant12345/engine/element.go">element.go</a>
+			
+			</span>
+			</p>
+		
+		</div><!-- .expanded -->
+		</div><!-- #pkg-index -->
+
+		<div id="pkg-callgraph" class="toggle" style="display: none">
+		<div class="collapsed">
+			<h2 class="toggleButton" title="Click to show Internal Call Graph section">Internal call graph ▹</h2>
+		</div> <!-- .expanded -->
+		<div class="expanded">
+			<h2 class="toggleButton" title="Click to hide Internal Call Graph section">Internal call graph ▾</h2>
+			<p>
+			  In the call graph viewer below, each node
+			  is a function belonging to this package
+			  and its children are the functions it
+			  calls&mdash;perhaps dynamically.
+			</p>
+			<p>
+			  The root nodes are the entry points of the
+			  package: functions that may be called from
+			  outside the package.
+			  There may be non-exported or anonymous
+			  functions among them if they are called
+			  dynamically from another package.
+			</p>
+			<p>
+			  Click a node to visit that function's source code.
+			  From there you can visit its callers by
+			  clicking its declaring <code>func</code>
+			  token.
+			</p>
+			<p>
+			  Functions may be omitted if they were
+			  determined to be unreachable in the
+			  particular programs or tests that were
+			  analyzed.
+			</p>
+			<!-- Zero means show all package entry points. -->
+			<ul style="margin-left: 0.5in" id="callgraph-0" class="treeview"></ul>
+		</div>
+		</div> <!-- #pkg-callgraph -->
+
+		
+		
+		
+			
+			
+			<h2 id="CreateApp">func <a href="/src/target/app.go?s=143:159#L1">CreateApp</a>
+				<a class="permalink" href="#CreateApp">&#xb6;</a>
+				
+				
+			</h2>
+			<pre>func CreateApp()</pre>
+			<p>
+CreateApp  is called by the main function to start your wasm app.
+</p>
+
+			
+			
+
+		
+			
+			
+			<h2 id="InitApp">func <a href="/src/target/appengine.go?s=107:121#L1">InitApp</a>
+				<a class="permalink" href="#InitApp">&#xb6;</a>
+				
+				
+			</h2>
+			<pre>func InitApp()</pre>
+			<p>
+InitApp is sane as CreateApp but I have kept it here for future use.
+</p>
+
+			
+			
+
+		
+			
+			
+			<h2 id="StartApp">func <a href="/src/target/app.go?s=341:356#L10">StartApp</a>
+				<a class="permalink" href="#StartApp">&#xb6;</a>
+				
+				
+			</h2>
+			<pre>func StartApp()</pre>
+			<p>
+StartApp is clled by main app to start the applicatio and
+e.g. engine.CreateApp()
+</p>
+<pre>engine.App.AddChild( app.CreateApp() )
+engine.StartApp()
+</pre>
+
+			
+			
+
+		
+		
+			
+			
+			<h2 id="Element">type <a href="/src/target/element.go?s=56:125#L1">Element</a>
+				<a class="permalink" href="#Element">&#xb6;</a>
+				
+				
+			</h2>
+			
+			<pre>type Element struct {
+<span id="Element.Node"></span>    Node <a href="/pkg/syscall/js/">js</a>.<a href="/pkg/syscall/js/#Value">Value</a>
+    <span class="comment">// contains filtered or unexported fields</span>
+}
+</pre>
+
+			
+
+			
+				
+				<pre>var <span id="App">App</span> *<a href="#Element">Element</a></pre>
+			
+
+			
+			
+			
+
+			
+				
+				<h3 id="NewElement">func <a href="/src/target/element.go?s=127:163#L3">NewElement</a>
+					<a class="permalink" href="#NewElement">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func NewElement(tag <a href="/pkg/builtin/#string">string</a>) *<a href="#Element">Element</a></pre>
+				
+				
+				
+			
+
+			
+				
+				<h3 id="Element.AddChild">func (*Element) <a href="/src/target/element.go?s=383:427#L14">AddChild</a>
+					<a class="permalink" href="#Element.AddChild">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) AddChild(element *<a href="#Element">Element</a>)</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Element.RemoveChild">func (*Element) <a href="/src/target/element.go?s=632:663#L25">RemoveChild</a>
+					<a class="permalink" href="#Element.RemoveChild">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) RemoveChild()</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Element.RemoveSingleChild">func (*Element) <a href="/src/target/element.go?s=514:567#L19">RemoveSingleChild</a>
+					<a class="permalink" href="#Element.RemoveSingleChild">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) RemoveSingleChild(element *<a href="#Element">Element</a>)</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Element.Set">func (*Element) <a href="/src/target/element.go?s=1048:1096#L49">Set</a>
+					<a class="permalink" href="#Element.Set">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) Set(key <a href="/pkg/builtin/#string">string</a>, value <a href="/pkg/builtin/#string">string</a>)</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Element.SetCallBack">func (*Element) <a href="/src/target/element.go?s=935:997#L45">SetCallBack</a>
+					<a class="permalink" href="#Element.SetCallBack">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) SetCallBack(cbType <a href="/pkg/builtin/#string">string</a>, cb <a href="/pkg/syscall/js/">js</a>.<a href="/pkg/syscall/js/#Callback">Callback</a>)</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Element.SetClass">func (*Element) <a href="/src/target/element.go?s=795:835#L37">SetClass</a>
+					<a class="permalink" href="#Element.SetClass">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) SetClass(class <a href="/pkg/builtin/#string">string</a>)</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Element.SetId">func (*Element) <a href="/src/target/element.go?s=873:907#L41">SetId</a>
+					<a class="permalink" href="#Element.SetId">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) SetId(id <a href="/pkg/builtin/#string">string</a>)</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Element.SetInnerHtml">func (*Element) <a href="/src/target/element.go?s=293:341#L10">SetInnerHtml</a>
+					<a class="permalink" href="#Element.SetInnerHtml">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (e *<a href="#Element">Element</a>) SetInnerHtml(innerhtml <a href="/pkg/builtin/#string">string</a>)</pre>
+				
+				
+				
+				
+			
+		
+	
+
+	
+
+
+
+
+
