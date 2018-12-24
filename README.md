@@ -1,6 +1,6 @@
 
-[![Build Status](https://travis-ci.org/rajnikant12345/engine.svg](https://travis-ci.org/rajnikant12345/engine) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/rajnikant12345/engine)]
+[![Build Status](https://travis-ci.org/rajnikant12345/engine.svg](https://travis-ci.org/rajnikant12345/engine)
+![Go Report Card](https://goreportcard.com/badge/github.com/rajnikant12345/engine)]
 
 
 
