@@ -1,5 +1,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/rajnikant12345/engine)](https://goreportcard.com/report/github.com/rajnikant12345/engine)
 
+https://travis-ci.org/rajnikant12345/engine.svg?branch=master
+
 # engine
 
 Engine is just some basic dom manipulation stuff. Which I developed for my usage in wasm and go applications.
