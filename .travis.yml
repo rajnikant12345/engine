@@ -1,1 +1,8 @@
 language: go
+
+go:
+  - "1.11.X"
+
+install:
+  - export GOOS=js
+  - export GOARCH=wasm
