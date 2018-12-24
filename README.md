@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/rajnikant12345/engine.svg?branch=master)](https://travis-ci.org/rajnikant12345/engine)  [![Go Report Card](https://goreportcard.com/badge/github.com/rajnikant12345/engine)](https://travis-ci.org/rajnikant12345/engine) [![GoDoc](https://godoc.org/github.com/rajnikant12345/engine?status.svg)](https://godoc.org/github.com/rajnikant12345/engine)
+[![Build Status](https://travis-ci.org/rajnikant12345/engine.svg?branch=master)](https://travis-ci.org/rajnikant12345/engine)  [![Go Report Card](https://goreportcard.com/badge/github.com/rajnikant12345/engine)](https://goreportcard.com/report/github.com/rajnikant12345/engine) [![GoDoc](https://godoc.org/github.com/rajnikant12345/engine?status.svg)](https://godoc.org/github.com/rajnikant12345/engine)
 
 
 
